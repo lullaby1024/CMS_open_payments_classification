@@ -46,7 +46,7 @@ This repository contains source codes and analyses for the 2017 open payments cl
 | SVM | OneHotEncoder, TargetEncoder, Imputation, StandardScaler | Yes | 0.9899102596909489 | 0.9492819554691636 |
 | Decision Tree | OneHotEncoder, TargetEncoder, Imputation, StandardScaler | Yes | 0.9773117605531414 | 0.8035644506506301 |
 | Random Forest | OneHotEncoder, TargetEncoder, Imputation, StandardScaler | Yes | 0.9923797314086081 | 0.9542236084333124 |
-| Gradient Boosting | OneHotEncoder, TargetEncoder, Imputation, StandardScaler | Yes | 0.994767508942391 | 0.9590947493623678 |
+| **Gradient Boosting** | OneHotEncoder, TargetEncoder, Imputation, StandardScaler | Yes | **0.994767508942391** | 0.9590947493623678 |
 - **Gradient Boosting** has the best performance in terms of ROC-AUC. 
   - Note that it also has the highest average precision among the models we've fitted. However, for specific business insights where both precision and recall should be taken into consideration, the baseline model Logistic Regression gives out the highest f-score compared to all other models. In addition, if we are only considering the the model performance, Random Forest is also a good model with ROC-AUC scores close to those of Gradient Boosting.
 
